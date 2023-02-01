@@ -16,14 +16,15 @@ body {
 }
 
 main {
-  width: 327px;
+  max-width: 327px;
   background-color: #15263F;
-  border-radius: 15px;;
+  border-radius: 15px;
+  padding: 1.5rem;
 }
 
 picture {
   display: inline-block;
-  margin: 25px;
+  /* margin: 25px; */
 }
 
 /* .img-section {
@@ -41,47 +42,58 @@ img {
 }
 
 .box-content {
-  margin-left: 25px;
+  /* margin-left: 25px; */
+  margin-top: 1rem;
 }
 
 .box-content h1 {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 600;
   color: #FFFFFF;
 }
 
 .paragraph-1 {
   color: #8BACD9;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 200;
-  line-height: 26px;
-  margin: 12px 25px 16px 0px;
+  line-height: 1.5;
+  margin-top: 1rem;
+  /* margin: 12px 25px 16px 0px; */
+  
 }
 
 .paragraph-2 {
+  /* width: 100%; */
   display: flex;
-  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .ETH {
-  display: inline-block;
+  /* display: inline-block;
+  width: 50%; */
   color: #00FFF8;
-  width: 50%;
+ 
 
 }
 
 .eth-img {
-  width: 30%;
-  height: 30%;
+  height: 1.5em;
+  /* width: 30%;
+  height: 30%; */
 }
 
 .clock { 
-  display: inline-block;
+  /* display: inline-block;
+  width: 50%; */
   color: #8BACD9;
-  width: 50%;
+  text-align: center;
+  justify-content: flex-end;
+  
 }
 
 .clock-img {
-  width: 30%;
-  height: 30%;
+  height: 1.5em;
+  /* width: 30%;
+  height: 30%; */
 }
